@@ -1,0 +1,40 @@
+.container-mov{
+    background: #181818;
+    z-index: 999;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    
+}
+
+.trailar{
+    border: 5px solid rgba(255, 255, 255, 0.39);
+    border-radius: 3px;
+    /* height: 200px; */
+    position: absolute;
+    top: 370px;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    overflow-x:hidden ;
+    
+}
+
+.trailar::-webkit-scrollbar{
+    display: none;
+}
+
+.main-title1{
+    position: absolute;
+    top: 1rem;
+    margin-top: 10px;
+    padding: 23px;
+}
+.main-title2{
+    position: absolute;
+    padding-left: 23px;
+}
